@@ -1,0 +1,46 @@
+WYATT R4 / BAMBU LAB P1S / 28 OCTOBER 2026
+R4 is the owner's selected design. Units mm; print at 100 percent scale.
+
+YES: THE MAIN SHELL FITS GEOMETRICALLY
+P1S nominal build volume is 256 x 256 x 256 mm. The supplied main-shell STL is
+240 x 112.8 x 32.8 mm in its front-face-down print orientation. The assembled
+main block, including rear covers, is 35.2 mm deep.
+A 5 mm outer brim gives approximately 250 x 122.8 mm on the bed. When centred,
+that leaves about 3 mm spare on each X side. The centred footprint is clear of
+the normal P1S front-left cutter exclusion in the official current profile.
+This is a geometry/profile check; a complete print job has not been sliced here.
+
+BAMBU STUDIO SETUP
+1. Select the actual P1S printer, installed nozzle and build-plate profile.
+   The standard 0.4 mm nozzle and a 0.20 mm layer preset are suitable starting
+   choices. Use the chosen filament's own profile; ordinary PETG is supported.
+2. Print the small fit coupons and their companion parts first, in the same
+   material. Follow PRINT-MANIFEST.json for quantities and supplied orientation.
+3. Import 01_Horizontal_Cabinet.stl alone on its plate, front face down,
+   scale 100 percent. Centre it on the plate, with its 240 mm side along X.
+4. A 5 mm brim fits by the measured envelope. Check all actual brim/support,
+   skirt and purge/prime structures in the slice preview; extra structures can
+   use the small side margin. Keep the P1S profile's normal exclusion zones.
+5. Confirm the complete slice stays in the usable area before making a job.
+   Resolve any warning in Studio without shrinking, silently splitting or
+   changing the printer's physical limits. Keep wire channels and air slots
+   clear of support residue.
+
+CAMERA / SELFIE REQUIREMENT
+The selected R4 keeps the original Korvo camera position and its front opening.
+Do not cover the camera with leather, adhesive, grille material or an added
+opaque face skin. Read Camera-and-selfies.txt and check the live view with the
+actual board fitted to TEST06, then repeat with the complete first shell.
+
+给打印店：P1S 可以按原比例打印 R4 主壳。主壳 240 x 112.8，双边各 5 mm 裙边约
+250 x 122.8；居中后 X 方向每边余量约 3 mm。请用正确的 P1S/喷嘴/板材/耗材配置，
+先切片预览所有裙边和支撑，保留机器禁区，不要缩放或擅自切壳。先打同材小样。
+中央原厂相机开窗必须保留；镜头前不可贴皮、涂胶或加不透明遮盖。试装后检查自拍视角。
+
+PRIMARY REFERENCES
+P1S specifications:
+https://cdn1.bambulab.com/documentation/quick-start-59b0cefdc0fc4/P1S/English%20version-Quick%20Start%20Guide%20for%20P1S.pdf
+Official Studio P1S profile (installed versions may differ):
+https://github.com/bambulab/BambuStudio/blob/master/resources/profiles/BBL/machine/Bambu%20Lab%20P1S%200.4%20nozzle.json
+Espressif's original Korvo case shown printed on a P1S:
+https://github.com/espressif/esp-dev-kits/tree/master/examples/esp32-s31-korvo

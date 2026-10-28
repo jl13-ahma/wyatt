@@ -1,0 +1,7 @@
+# Exact top-level/native geometry stack used for v0.1.0-r4 on Python 3.12.14.
+# Install in a clean virtual environment. Platform wheels/VTK rendering vary.
+cadquery==2.8.0
+cadquery-ocp==7.9.3.1.1
+vtk==9.6.2
+Pillow==13.0.0
+numpy==2.5.4

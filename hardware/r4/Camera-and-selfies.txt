@@ -1,0 +1,55 @@
+WYATT R4 / FRONT CAMERA AND SELFIE CLEARANCE / 28 OCTOBER 2026
+R4 is the selected design. The original Korvo camera is retained in its original
+position. The added R4 parts leave the original upper-front notch and the central
+functional-front area unobstructed in the CAD review. Its forward view is a required fit check, not a decorative feature.
+
+PRINT / FINISH REQUIREMENT
+- Preserve the original manufacturer's camera opening in the central cassette.
+  Keep the lens area and adjacent microphone openings clear through the new
+  outer frame. Do not bridge them with leather, adhesive, paint, grille mesh,
+  opaque trim or an unqualified cover-glass layer.
+- Do not relocate the camera or invent a new lens hole from the appearance
+  illustration. STEP/STL geometry and the real board determine its location.
+- Keep finishing material inside the designated top/side wrap area. Identify
+  the actual lens and camera-board position before cutting the final leather.
+
+PHYSICAL SELFIE CHECK
+1. Fit the original cassette and board to TEST_06_Cassette_Port_Lane_Coupon with
+   its retainer, then use a working camera preview on that exact board, for
+   example the official factory camera demo. Wyatt firmware is not included
+   in this CAD-only release.
+2. Check that the camera still faces the user. Compare the view before/after
+   fitting the frame: a face at normal selfie distance and a well-lit grid should
+   remain visible, including all image corners, without a dark edge or reflection
+   caused by the frame. Check with the intended desk angle too.
+3. Repeat with the complete first R4 shell, rear covers and final leather fitted.
+   If an edge is clipped, revise the offending lip/material after measuring the
+   actual lens location. Do not assume a manufacturer's camera FOV or lens depth
+   that has not been verified for this particular module.
+
+PRIOR BENCH CAMERA OBSERVATION / SOFTWARE NOT INCLUDED
+The project owner previously confirmed forward-facing preview and an in-RAM
+Snapshot freeze on the owned board during bench development. This observation
+is separate from the unprinted R4 enclosure. That development app is not part
+of this CAD-only release. Persistent photo saving/export/sharing is not
+implemented yet. This clearance requirement reserves the hardware for selfies;
+it is not a claim that a photo-storage feature or assembled-case optical test
+has already passed. No camera capture, firmware change or photo upload was made
+for this CAD/printing check.
+
+给打印店：请保留中央原厂相机开窗及话筒开口。镜头前不贴皮、不涂胶、不加网罩或
+不透明装饰；不能根据效果图随意改相机孔位。先用 TEST06 和实物主板检查朝向及画面
+四角，再在完整贴皮后的 R4 上复查自拍视角。若出现暗角，先实测镜头与遮挡位置再改。
+
+CAD REVIEW
+Camera-clearance-review.json/.txt and Preview/Camera-keepout.svg record the
+measured original upper notch and added-part clearance. The STEP has no named
+lens centre or field-of-view model; physical corner/framing checks remain needed.
+
+OFFICIAL REFERENCES
+Espressif Korvo board and case files:
+https://github.com/espressif/esp-dev-kits/tree/master/examples/esp32-s31-korvo
+Factory camera demo (OV3660 or SC101 preview support):
+https://github.com/espressif/esp-dev-kits/blob/master/examples/esp32-s31-korvo/examples/factory_demo/README.md
+Board user guide (onboard DVP camera and camera connector):
+https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp32-s31-korvo-1/user_guide.html

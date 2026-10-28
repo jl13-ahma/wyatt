@@ -1,0 +1,106 @@
+{
+  "revision": "R4",
+  "scope": "Read-only camera-space geometry review; manufacturing files unchanged",
+  "coordinate_system": "R4 STEP coordinates, millimetres; Z=0 is main front; decreasing Z points outward",
+  "source": "Official-originals/ESP32-S31-Korvo-1_Case_top_20260603.STEP",
+  "source_sha256": "f10f5f23b858c23585a74050008a31744908cd49fda2c056793996fafbf04a3d",
+  "feature": "Original upper-front rectangular notch, preserved as camera-module space",
+  "assignment_limit": "STEP has no named camera component, lens or entrance-pupil model. This is a measured original-case notch, not an invented lens location or optical field of view.",
+  "notch_bounds_mm": {
+    "x": [
+      -36.7426594070222,
+      -22.659999999999997
+    ],
+    "y": [
+      35.41,
+      47.89999999999999
+    ],
+    "original_front_plane_z": 1.3
+  },
+  "notch_size_mm": [
+    14.082659407022206,
+    12.489999999999995
+  ],
+  "outer_front_opening_mm": {
+    "x": [
+      -55.9,
+      55.9
+    ],
+    "y": [
+      -49.35,
+      49.35
+    ]
+  },
+  "original_case_envelope_mm": [
+    110.9,
+    97.8,
+    23.6
+  ],
+  "case_to_outer_opening_nominal_clearance_each_side_mm": 0.45,
+  "notch_to_outer_opening_projected_margins_mm": {
+    "left": 19.157340592977796,
+    "right": 78.56,
+    "bottom": 84.75999999999999,
+    "top": 1.45000000000001
+  },
+  "forward_gauge_z_mm": [
+    -8,
+    1.3
+  ],
+  "intersection_checks_mm3": {
+    "original_notch_forward": {
+      "01_Horizontal_Cabinet": 0.0,
+      "02_Left_Wing_Rear_Cover": 0.0,
+      "03_Right_Wing_Rear_Cover": 0.0,
+      "04_Official_Cassette_Retainer": 0.0,
+      "06_Low_Concealed_Desk_Plinth": 0.0,
+      "07_Internal_Sensor_Service_Cap": 0.0,
+      "08_SEN0428_Internal_Edge_Carrier": 0.0,
+      "09_SEN0428_Rear_Retention_Frame": 0.0,
+      "REFERENCE_Cognac_TOP_SIDE_Wrap_NOT_FOR_PRINT": 0.0,
+      "grille_L": 0.0,
+      "grille_R": 0.0
+    },
+    "notch_plus_1mm_forward": {
+      "01_Horizontal_Cabinet": 0.0,
+      "02_Left_Wing_Rear_Cover": 0.0,
+      "03_Right_Wing_Rear_Cover": 0.0,
+      "04_Official_Cassette_Retainer": 0.0,
+      "06_Low_Concealed_Desk_Plinth": 0.0,
+      "07_Internal_Sensor_Service_Cap": 0.0,
+      "08_SEN0428_Internal_Edge_Carrier": 0.0,
+      "09_SEN0428_Rear_Retention_Frame": 0.0,
+      "REFERENCE_Cognac_TOP_SIDE_Wrap_NOT_FOR_PRINT": 0.0,
+      "grille_L": 0.0,
+      "grille_R": 0.0
+    },
+    "central_functional_rectangle_forward": {
+      "01_Horizontal_Cabinet": 0.0,
+      "02_Left_Wing_Rear_Cover": 0.0,
+      "03_Right_Wing_Rear_Cover": 0.0,
+      "04_Official_Cassette_Retainer": 0.0,
+      "06_Low_Concealed_Desk_Plinth": 0.0,
+      "07_Internal_Sensor_Service_Cap": 0.0,
+      "08_SEN0428_Internal_Edge_Carrier": 0.0,
+      "09_SEN0428_Rear_Retention_Frame": 0.0,
+      "REFERENCE_Cognac_TOP_SIDE_Wrap_NOT_FOR_PRINT": 0.0,
+      "grille_L": 0.0,
+      "grille_R": 0.0
+    }
+  },
+  "obstructions": {},
+  "notch_forward_gauge_to_added_cabinet_distance_mm": 1.45000000000001,
+  "important_limits": [
+    "Whole outer-case corners are not claimed unobstructed: four intentional corner stops retain the official shell. The tested central106x97.6mm rectangle and original notch remain clear.",
+    "The nearby top lip is1.45mm above the notch's upper edge in XY and ahead of the original front plane. Normal clearance does not prove freedom from off-axis vignetting.",
+    "Actual lens centre/depth, protrusion, module/flex envelope, field of view, focus and full-frame selfie image are not verified by these STEP files.",
+    "No photo-save or selfie-capture software feature is asserted. Existing live camera operation is separate evidence supplied by the project owner."
+  ],
+  "physical_acceptance": [
+    "Dry-fit the owned board/LCD/camera in the unchanged official case and TEST06 with retainer and actual cables before the240mm print.",
+    "Keep the entire original upper-front notch open: no leather, adhesive, film, trim, gasket or cable over it; do not load the lens or pinch the camera flex.",
+    "Compare the live preview before and after dry assembly with a plain grid/card at the intended selfie distance; check centre and all four frame corners for casing, dark corners and focus changes.",
+    "Repeat with final leather, retainer and covers installed. If obstruction/vignetting occurs, stop and revise that local lip/camera relief before approving the full print."
+  ],
+  "result": "No added R4 geometry blocks the measured notch, its1mm forward allowance, or the tested central functional front rectangle. Physical lens/FOV alignment remains a gate."
+}

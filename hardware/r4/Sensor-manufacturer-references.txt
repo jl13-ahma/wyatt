@@ -1,0 +1,103 @@
+MANUFACTURER RESEARCH / HISTORICAL R2 REVIEW
+For the current integrated R4 mounting and test plan, read README-PRINT-FIRST.txt and Integrated-sensor-test-plan.txt. The supplier dimensions and electrical information below remain the source basis; the earlier external-pod layout is superseded.
+
+WYATT R2 / SENSOR AND BUY-NOW REVIEW — 2026-10-28
+Read-only manufacturer research. No cart, order, vendor contact, serial access,
+firmware change or current-output BOM edit was performed.
+
+VERIFIED SENSOR / CAD CONTRACT
+DFRobot Fermion SHT40 breakout, SKU SEN0428:
+- PCB outline14×17mm. M2/2mm mounting holes with10mm pitch.
+- The cited specifications do not give assembled thickness, header stack height,
+  precise hole-edge offsets or cable bend envelope. Do not use the bare sensor
+  chip's1.5×1.5×0.5mm as the complete breakout dimensions.
+- The package lists one breakout and one loose4-pin2.54mm single-row male header;
+  it does not list a cable or factory-soldered header. Confirm assembly service.
+- Module supply3.3–5V, I2C. Pin names/order in the official wiki: VCC/GND/SCL/SDA.
+- Manufacturer example selects SHT40-AD1B/0x44; its library also supports BD1B/0x45.
+  AD1B/0x44 is the planned bench configuration; verify the actual fitted
+  variant before changing the address. High-precision measurement command0xFD.
+
+Current China product page returned a listed price¥49.00 on this research date.
+This is a visible manufacturer reference, not a checkout total or stock promise;
+the returned stock quantity field was blank. Shipping/assembly are separate.
+https://www.dfrobot.com.cn/goods-3365.html
+https://wiki.dfrobot.com/sen0428/
+https://wiki.dfrobot.com/sen0428/docs/19745
+https://raw.githubusercontent.com/DFRobot/DFRobot_SHT/master/src/DFRobot_SHT40.h
+Official specification/dimension image (local fetch timed out; no pixel-derived
+measurements were invented):
+https://img.dfrobot.com.cn/wiki/5d6782b68b3b1513c2f4da54/0fad07c83858bd2dbc012c0c1b630bc7.png
+
+SOURCE MISMATCH TO PRESERVE
+The current official wiki's SEN0428 schematic download is named for SHT40 but
+its internal title/sensor symbol says SHTC3. Do not treat this as verification of
+the exact supplied SHT40 module's level-shifting/pull-up circuit or chip position.
+https://dfimg.dfrobot.com/wiki/19391/SEN0428_fermion-sht40-temperature-humidity-sensor_schematics_V1.0.pdf
+Use3.3V supply and3.3V I2C for the proposed shared Korvo bus; do not attach5V
+pull-ups to SoC signals. Shared-bus connector/tap, ground, actual voltage,
+pin orientation and final harness continuity still need confirmation on the
+owned board revision. Sensor wiring remains unvalidated; no code is included here.
+No verified plug-and-play Korvo sensor cable SKU was found; keep the harness a
+quoted assembly service, not an invented stock part.
+
+ENCLOSURE / THERMAL REQUIREMENTS
+Sensirion recommends a small sensor air volume exposed to ambient, separate
+from the warm electronics compartment, low thermal coupling and useful airflow
+through multiple openings. Keep the sensor away from display/SoC/regulator heat
+and their rising warm exhaust. A separate ventilated pod is a reasonable design
+implementation; exact gap/vent millimetres are engineering allowances requiring
+thermal testing, not manufacturer dimensions. Keep the sensor's top opening
+clear; support/clamp the PCB edges, not the chip. Do not block vents with leather.
+Mounting increases thermal mass/response time even with a good opening. The
+component's accuracy specification is not a whole-enclosure accuracy guarantee.
+https://sensirion.com/media/documents/FC5BED84/662B494D/Sensirion_Humidity_Temperature_Design_Guide.pdf
+https://github.com/Sensirion/smartgadget-sht4x-housing
+
+Glues/adhesives/plasticizers may outgas and contaminate the sensing polymer;
+solvents including alcohols/acetone and direct cleaning can also cause issues.
+Prefer mechanical retention in the sensor pod. Cure/air printed, coated and
+leather-glued parts before installing the sensor; keep adhesive outside its
+cavity and do not wash/coat/glue the sensing chip. No IP/waterproof rating is
+established for the proposed printed pod.
+https://sensirion.com/media/documents/D1297BA5/670547C3/HT_AN_Contamination_Guide.pdf
+
+BUY NOW / REUSE
+The project owner already had an ESP32-S31-Korvo-1/LCD, two42mm-rim speakers
+and working data cable. This historical incremental estimate excludes those parts.
+Other builders must supply their own complete compatible hardware.
+Required for real room values:
+1. SEN0428 x1:¥49 manufacturer listed reference.
+2. Safe shared3.3V I2C harness/header soldering/strain relief:¥35 PLANNING
+   ALLOWANCE retained from the existing BOM; require a verified drawing/quote.
+   Allow direct low-profile soldered pigtail or a chosen header/connector, with
+   actual cable clearance reflected in CAD. Do not claim the supplied loose
+   header is pre-soldered or includes a matching female harness.
+Minimum added sensor electronics planning subtotal:¥84. With provisional¥20
+combined delivery allowance:¥104. This is not an order quote and excludes R2
+printing, fasteners, leather/adhesive and any optional power/RTC.
+
+Conditional power only if no suitable existing supply:
+DFRobot FIT0640, US-plug5V3A supply with integrated1.5m lead: current official
+China page returned¥40.00. Check outlet/plug suitability; it is power only and
+must not replace the existing data cable for flashing. Espressif says both USB-C
+ports can power the board; when high-power speakers and USB-A loads operate
+together, total input should meet3A and dedicated power/data cables are advised.
+https://www.dfrobot.com.cn/goods-2085.html
+https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp32-s31-korvo-1/user_guide.html#power-supply-description
+
+OPTIONAL LATER
+DFR0998 SD3031 RTC (address0x32) plus separately purchasedCR1220 battery can
+retain clock time, but no Wyatt RTC driver or final mount is implemented.
+Official wiki gives22.5×21mm and uses3.3V for wiring. China product page timed
+out via web and direct curl today; the previous BOM's¥40 must not be presented
+as freshly verified current pricing. Keep this outside the minimum current
+purchase/print list. The coin cell would not power the display or alarm speaker.
+https://www.dfrobot.com.cn/goods-3657.html
+https://wiki.dfrobot.com/dfr0998
+https://wiki.dfrobot.com.cn/_SKU_DFR0998_Fermion_SD3031_RTC_module_Breakout
+
+The earlier R2 printing allowance is historical and superseded. Submit the
+current R4 files to a print vendor for a fresh quote. Final
+fastener counts belong to the CAD BOM. Separate observed item prices from
+harness, shipping, finishing and manufacturing allowances in the current BOM.

@@ -1,0 +1,59 @@
+{
+  "revision": "R4",
+  "body_width": 240.0,
+  "body_height": 112.8,
+  "body_front_to_back": 35.2,
+  "wing_outer_wall": 3.0,
+  "speaker_ring_wall": 3.0,
+  "sensor_cell_wall": 2.5,
+  "front_baffle": 3.2,
+  "speaker_seat_z": 5.0,
+  "body_rear_seal_plane": 32.8,
+  "rear_cover_thickness": 2.4,
+  "case_width": 110.9,
+  "case_height": 97.8,
+  "case_assembly_depth": 23.6,
+  "case_clearance_each_side": 0.45,
+  "case_front_offset": 1.3,
+  "case_jacket_border": 6.5,
+  "case_retainer_z": 26.0,
+  "speaker_centres_x": [
+    -94.0,
+    94.0
+  ],
+  "speaker_bore_diameter": 43.0,
+  "speaker_measured_rim": 42.0,
+  "speaker_listing_depths": [
+    20.0,
+    17.0
+  ],
+  "speaker_design_depth": 20.0,
+  "speaker_front_aperture": 36.0,
+  "grille_width": 44.0,
+  "grille_height": 86.0,
+  "grille_recess_width": 44.4,
+  "grille_recess_height": 86.4,
+  "grille_recess_depth": 1.8,
+  "sensor_centre_xy": [
+    -94.0,
+    -37.0
+  ],
+  "sensor_cell_xy": [
+    22.8,
+    20.4
+  ],
+  "sensor_pcb_verified_xy": [
+    14.0,
+    17.0
+  ],
+  "sensor_stack_height_verified": false,
+  "plinth_width": 230.0,
+  "plinth_height": 3.2,
+  "plinth_depth": 60.0,
+  "plinth_front_z": -3.0,
+  "leather_thickness": 0.7,
+  "adhesive_thickness": 0.15,
+  "pilot_diameter": 2.2,
+  "pilot_depth": 8.0,
+  "usable_print_bed_min_width_with_5mm_brim": 250.0
+}

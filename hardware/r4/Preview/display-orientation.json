@@ -1,0 +1,15 @@
+{
+  "revision": "R4",
+  "actual_opening_bbox": [
+    106.0,
+    68.0,
+    0.0,
+    -3.552713678800501e-15
+  ],
+  "glass_mm": [
+    93.6,
+    56.16,
+    0.3
+  ],
+  "status": "Orientation surface only, excluded from manufacturing files; no measured LCD fit claim."
+}

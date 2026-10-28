@@ -1,0 +1,757 @@
+{
+  "revision": "R4",
+  "units": "mm",
+  "parameters": {
+    "revision": "R4",
+    "body_width": 240.0,
+    "body_height": 112.8,
+    "body_front_to_back": 35.2,
+    "wing_outer_wall": 3.0,
+    "speaker_ring_wall": 3.0,
+    "sensor_cell_wall": 2.5,
+    "front_baffle": 3.2,
+    "speaker_seat_z": 5.0,
+    "body_rear_seal_plane": 32.8,
+    "rear_cover_thickness": 2.4,
+    "case_width": 110.9,
+    "case_height": 97.8,
+    "case_assembly_depth": 23.6,
+    "case_clearance_each_side": 0.45,
+    "case_front_offset": 1.3,
+    "case_jacket_border": 6.5,
+    "case_retainer_z": 26.0,
+    "speaker_centres_x": [
+      -94.0,
+      94.0
+    ],
+    "speaker_bore_diameter": 43.0,
+    "speaker_measured_rim": 42.0,
+    "speaker_listing_depths": [
+      20.0,
+      17.0
+    ],
+    "speaker_design_depth": 20.0,
+    "speaker_front_aperture": 36.0,
+    "grille_width": 44.0,
+    "grille_height": 86.0,
+    "grille_recess_width": 44.4,
+    "grille_recess_height": 86.4,
+    "grille_recess_depth": 1.8,
+    "sensor_centre_xy": [
+      -94.0,
+      -37.0
+    ],
+    "sensor_cell_xy": [
+      22.8,
+      20.4
+    ],
+    "sensor_pcb_verified_xy": [
+      14.0,
+      17.0
+    ],
+    "sensor_stack_height_verified": false,
+    "plinth_width": 230.0,
+    "plinth_height": 3.2,
+    "plinth_depth": 60.0,
+    "plinth_front_z": -3.0,
+    "leather_thickness": 0.7,
+    "adhesive_thickness": 0.15,
+    "pilot_diameter": 2.2,
+    "pilot_depth": 8.0,
+    "usable_print_bed_min_width_with_5mm_brim": 250.0
+  },
+  "parts": {
+    "01_Horizontal_Cabinet": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 147492.88182491422,
+        "bbox_mm": [
+          240.0,
+          112.8,
+          32.8000001
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 147492.88182491422,
+        "bbox_mm": [
+          240.0067689986848,
+          112.8067689986848,
+          32.81884966037513
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 147492.88685979816,
+        "bbox_mm": [
+          240.0,
+          112.8,
+          32.8000001
+        ]
+      }
+    },
+    "02_Left_Wing_Rear_Cover": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10159.787605781954,
+        "bbox_mm": [
+          46.8,
+          109.2,
+          2.3999999999999986
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10159.78760578195,
+        "bbox_mm": [
+          46.8026231094904,
+          109.20524601898073,
+          2.405246018980727
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10159.787605782276,
+        "bbox_mm": [
+          46.8,
+          109.2,
+          2.4000000000000057
+        ]
+      }
+    },
+    "03_Right_Wing_Rear_Cover": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 11839.03517855483,
+        "bbox_mm": [
+          46.8,
+          109.2,
+          2.3999999999999986
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 11839.03517855483,
+        "bbox_mm": [
+          46.80262310949041,
+          109.20524601898073,
+          2.405246018980727
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 11839.035178554921,
+        "bbox_mm": [
+          46.8,
+          109.2,
+          2.4000000000000057
+        ]
+      }
+    },
+    "04_Official_Cassette_Retainer": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 2440.4924242214543,
+        "bbox_mm": [
+          124.80000000000001,
+          107.4,
+          2.3999999999999986
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 2440.4924242214543,
+        "bbox_mm": [
+          124.8067689986848,
+          107.40676899868481,
+          2.4067689986848047
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 2440.492424221588,
+        "bbox_mm": [
+          124.80000000000001,
+          107.4,
+          2.3999999999999986
+        ]
+      }
+    },
+    "05_Flush_Speaker_Grille_PRINT_TWO": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 4034.4306622134764,
+        "bbox_mm": [
+          44.0,
+          86.0,
+          1.5
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 4034.4306622134764,
+        "bbox_mm": [
+          44.00338459934241,
+          86.00338459934241,
+          1.503384599342409
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 4034.430662213431,
+        "bbox_mm": [
+          44.0,
+          86.0,
+          1.5
+        ]
+      }
+    },
+    "06_Low_Concealed_Desk_Plinth": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 21013.439170163874,
+        "bbox_mm": [
+          230.0,
+          3.200000000000003,
+          60.0
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 21013.439170163878,
+        "bbox_mm": [
+          230.002115449589,
+          60.00211544958902,
+          3.2118033200845257
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 21013.439170163918,
+        "bbox_mm": [
+          230.0,
+          3.200000000000003,
+          60.0
+        ]
+      }
+    },
+    "08_SEN0428_Internal_Edge_Carrier": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 701.9437887715771,
+        "bbox_mm": [
+          22.0,
+          20.0,
+          3.4000000000000004
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 701.943788771577,
+        "bbox_mm": [
+          22.000000200000045,
+          20.00000020000003,
+          3.400716308346426
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 701.9437887715767,
+        "bbox_mm": [
+          22.0,
+          20.0,
+          3.4000000000000004
+        ]
+      }
+    },
+    "09_SEN0428_Rear_Retention_Frame": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 289.7248149339749,
+        "bbox_mm": [
+          22.0,
+          20.0,
+          1.1999999999999993
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 289.7248149339749,
+        "bbox_mm": [
+          22.000000200000045,
+          20.00000020000003,
+          1.2009848489763146
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 289.7248149339746,
+        "bbox_mm": [
+          22.0,
+          20.0,
+          1.1999999999999993
+        ]
+      }
+    },
+    "07_Internal_Sensor_Service_Cap": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1876.9241467953952,
+        "bbox_mm": [
+          38.0,
+          23.200000000000003,
+          25.100000099999995
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1876.9241467953952,
+        "bbox_mm": [
+          38.00265778388746,
+          23.201269349753414,
+          25.358729802870503
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1876.9241467953495,
+        "bbox_mm": [
+          38.0,
+          23.200000000000003,
+          25.100000100000003
+        ]
+      }
+    },
+    "TEST_01_Official_Case_Clearance_Frame": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5179.61944901924,
+        "bbox_mm": [
+          119.8,
+          106.7,
+          3.0
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5179.61944901924,
+        "bbox_mm": [
+          119.804230699178,
+          106.70423069917801,
+          3.0042306991780086
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5179.619449019346,
+        "bbox_mm": [
+          119.8,
+          106.7,
+          3.0
+        ]
+      }
+    },
+    "TEST_02_Speaker_Diameter_Rings_1_2_3": {
+      "assembled": {
+        "valid": true,
+        "solids": 3,
+        "volume_mm3": 4022.400985876766,
+        "bbox_mm": [
+          153.0,
+          49.0,
+          3.0
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 3,
+        "volume_mm3": 4022.4009858767668,
+        "bbox_mm": [
+          153.01096560905418,
+          49.016448006811764,
+          3.021931018108371
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 3,
+        "volume_mm3": 4022.400985876846,
+        "bbox_mm": [
+          153.0,
+          49.0,
+          3.0
+        ]
+      }
+    },
+    "TEST_03_Flush_Grille_And_Speaker_Seat": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 12757.66396852004,
+        "bbox_mm": [
+          50.0,
+          92.0,
+          5.0
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 12757.66396852004,
+        "bbox_mm": [
+          50.00423069917801,
+          92.00423069917801,
+          5.010171668485947
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 12757.663968520017,
+        "bbox_mm": [
+          50.0,
+          92.0,
+          5.0
+        ]
+      }
+    },
+    "TEST_04_Leather_And_Screw_Pilots": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5770.053487695476,
+        "bbox_mm": [
+          55.0,
+          30.0,
+          4.0
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5770.053487695476,
+        "bbox_mm": [
+          55.00000020000003,
+          30.00000020000003,
+          4.00188996738499
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5770.053487695484,
+        "bbox_mm": [
+          55.0,
+          30.0,
+          4.0
+        ]
+      }
+    },
+    "TEST_05_Integrated_Sensor_Cell": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 22339.734582605688,
+        "bbox_mm": [
+          42.000000099999994,
+          39.400000000000006,
+          32.8000001
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 22339.734582605688,
+        "bbox_mm": [
+          42.00471091767152,
+          39.41273569624927,
+          32.81273569624928
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 22339.7346403977,
+        "bbox_mm": [
+          42.00000010000966,
+          39.40000000000133,
+          32.8000001
+        ]
+      }
+    },
+    "TEST_06_Cassette_Port_Lane_Coupon": {
+      "assembled": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 62840.37437719064,
+        "bbox_mm": [
+          154.02591124861692,
+          112.80049252448877,
+          32.81473253396412
+        ]
+      },
+      "print": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 62840.37437719064,
+        "bbox_mm": [
+          154.02591124861692,
+          112.80049252448877,
+          32.81473253396412
+        ]
+      },
+      "reimport": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 62840.37437719064,
+        "bbox_mm": [
+          154.02591124861692,
+          112.80049252448877,
+          32.81473253396412
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "CAD-ready print prototype, not physically validated.",
+    "PCB thickness/blank-edge contact/component/header envelope unverified; coupon first.",
+    "Source case openings do not prove spare room beside occupied PCB/USB connectors.",
+    "Installed temperature bias, acoustic response and tip stability require physical tests."
+  ],
+  "printed_assembly_bbox_mm": [
+    240.0,
+    116.0,
+    60.0
+  ],
+  "with_leather_reference_bbox_mm": [
+    241.7,
+    116.85,
+    60.0
+  ],
+  "sensor": {
+    "centre_xy_mm": [
+      -94.0,
+      -37.0
+    ],
+    "cell_xy_mm": [
+      22.8,
+      20.4
+    ],
+    "seal_plane_z": 32.8,
+    "cap_front_rear_z": [
+      33.099999999999994,
+      34.89999999999999
+    ],
+    "cap_screws_xy": [
+      [
+        -110.0,
+        -43.0
+      ],
+      [
+        -78.0,
+        -43.0
+      ]
+    ],
+    "closed_feedthrough_bounds_mm": {
+      "x": [
+        -82.6,
+        -78.4
+      ],
+      "y": [
+        -39.5,
+        -34.5
+      ],
+      "z": [
+        27.2,
+        31.4
+      ]
+    },
+    "closed_feedthrough_roof_z_mm": [
+      31.4,
+      32.8
+    ],
+    "plug_centre_xy": [
+      -80.5,
+      -37.0
+    ],
+    "plug_length_x_mm": 2.8,
+    "front_slot_centres_y": [
+      -38.4,
+      -35.2,
+      -32.0,
+      -28.8
+    ],
+    "bottom_inlet_z_mm": [
+      8,
+      13
+    ],
+    "plinth_tunnel_bounds_mm": {
+      "x": [
+        -102.0,
+        -86.0
+      ],
+      "y": [
+        -58.5,
+        -55.9
+      ],
+      "z": [
+        -4,
+        15
+      ]
+    },
+    "plinth_tunnel_floor_mm": 1.1,
+    "PCB_height_and_blank_edges_verified": false,
+    "foam_gasket_free_compressed_mm": [
+      0.5,
+      0.3
+    ]
+  },
+  "harness": {
+    "diameter_allowance_mm": 3.5,
+    "points_mm": [
+      [
+        -94.0,
+        -37.0,
+        17
+      ],
+      [
+        -87.0,
+        -37.0,
+        29.3
+      ],
+      [
+        -67,
+        -37.0,
+        29.3
+      ]
+    ],
+    "endpoint": "Before officialcase in open rear service lane; actual occupied-port entry is a physical routing gate."
+  },
+  "port_lanes": {
+    "side_lane_x_abs_mm": [
+      55.2,
+      71
+    ],
+    "side_lane_y_mm": [
+      -43,
+      43
+    ],
+    "side_lane_z_mm": [
+      3.5,
+      35.2
+    ],
+    "side_shell_to_lane_wall_mm": 15.55,
+    "lane_to_speaker_bore_min_web_mm": 1.5,
+    "top_bottom_access": "Open fromrear; original sourcecase cutouts unchanged; verify actual plugs/bends before fullprint."
+  },
+  "collisions_mm3": {
+    "cabinet__left_rear": 0.0,
+    "cabinet__right_rear": 0.0,
+    "cabinet__cassette_retainer": 0.0,
+    "cabinet__plinth": 0.0,
+    "cabinet__official_top": 0.0,
+    "cabinet__official_bottom": 0.0,
+    "cabinet__grille_L": 0.0,
+    "cabinet__grille_R": 0.0,
+    "cabinet__sensor_cap": 0.0,
+    "cabinet__sensor_carrier": 0.0,
+    "cabinet__sensor_retention": 0.0,
+    "cabinet__leather_REFERENCE": 0.0,
+    "left_rear__right_rear": 0.0,
+    "left_rear__plinth": 0.0,
+    "left_rear__official_top": 0.0,
+    "left_rear__official_bottom": 0.0,
+    "left_rear__sensor_cap": 0.0,
+    "left_rear__sensor_carrier": 0.0,
+    "left_rear__sensor_retention": 0.0,
+    "right_rear__sensor_cap": 0.0,
+    "right_rear__sensor_carrier": 0.0,
+    "right_rear__sensor_retention": 0.0,
+    "cassette_retainer__left_rear": 0.0,
+    "cassette_retainer__right_rear": 0.0,
+    "cassette_retainer__plinth": 0.0,
+    "cassette_retainer__official_top": 0.0,
+    "cassette_retainer__official_bottom": 0.0,
+    "cassette_retainer__grille_L": 0.0,
+    "cassette_retainer__grille_R": 0.0,
+    "cassette_retainer__sensor_cap": 0.0,
+    "cassette_retainer__sensor_carrier": 0.0,
+    "cassette_retainer__sensor_retention": 0.0,
+    "cassette_retainer__leather_REFERENCE": 0.0,
+    "plinth__right_rear": 0.0,
+    "plinth__sensor_cap": 0.0,
+    "plinth__sensor_carrier": 0.0,
+    "plinth__sensor_retention": 0.0,
+    "official_top__right_rear": 0.0,
+    "official_top__plinth": 0.0,
+    "official_top__sensor_cap": 0.0,
+    "official_top__sensor_carrier": 0.0,
+    "official_top__sensor_retention": 0.0,
+    "official_bottom__right_rear": 0.0,
+    "official_bottom__plinth": 0.0,
+    "official_bottom__official_top": 0.0,
+    "official_bottom__sensor_cap": 0.0,
+    "official_bottom__sensor_carrier": 0.0,
+    "official_bottom__sensor_retention": 0.0,
+    "grille_L__left_rear": 0.0,
+    "grille_L__right_rear": 0.0,
+    "grille_L__plinth": 0.0,
+    "grille_L__official_top": 0.0,
+    "grille_L__official_bottom": 0.0,
+    "grille_L__grille_R": 0.0,
+    "grille_L__sensor_cap": 0.0,
+    "grille_L__sensor_carrier": 0.0,
+    "grille_L__sensor_retention": 0.0,
+    "grille_L__leather_REFERENCE": 0.0,
+    "grille_R__left_rear": 0.0,
+    "grille_R__right_rear": 0.0,
+    "grille_R__plinth": 0.0,
+    "grille_R__official_top": 0.0,
+    "grille_R__official_bottom": 0.0,
+    "grille_R__sensor_cap": 0.0,
+    "grille_R__sensor_carrier": 0.0,
+    "grille_R__sensor_retention": 0.0,
+    "grille_R__leather_REFERENCE": 0.0,
+    "sensor_cap__sensor_carrier": 0.0,
+    "sensor_cap__sensor_retention": 0.0,
+    "sensor_carrier__sensor_retention": 0.0,
+    "leather_REFERENCE__left_rear": 0.0,
+    "leather_REFERENCE__right_rear": 0.0,
+    "leather_REFERENCE__plinth": 0.0,
+    "leather_REFERENCE__official_top": 0.0,
+    "leather_REFERENCE__official_bottom": 0.0,
+    "leather_REFERENCE__sensor_cap": 0.0,
+    "leather_REFERENCE__sensor_carrier": 0.0,
+    "leather_REFERENCE__sensor_retention": 0.0
+  }
+}

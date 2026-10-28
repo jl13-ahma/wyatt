@@ -1,0 +1,37 @@
+WYATT R4 — ONE HORIZONTAL BLOCK — 28 October 2026
+
+Two speakers sit LEFT and RIGHT of the central screen. The SHT40 sensor is inside
+the lower-left wing. R3's stacked display/speaker shape and external sensor pod
+are absent. The unchanged official inner case preserves its camera, microphones,
+buttons and original port openings.
+
+Start with Preview/Shannon-horizontal-front-three-quarter.png, then the full
+Preview/Shannon-technical-four-views.png. These are actual CAD views. The display
+surface is neutral orientation art; it is not physical fit/performance evidence.
+
+Give the printer 松江打印店-分阶段报价与验收.txt and PRINT-MANIFEST.json.
+The240mm shell needs at least250mm USABLE bed width with a5mm brim each side.
+It does not fit a normal220×220mm bed. Do not shrink it or split it silently.
+
+PRINT COUPONS FIRST:
+TEST01 official-case clearance; TEST02 speaker diameters; TEST03 with05 grille
+for actual flush-panel/cone clearance; TEST04 material/pilots; TEST05 with07/08/09
+for actual sensor/foam/pigtail; TEST06 full-depth port access with the owned
+cassette,04 retainer and actual plugged cables/SD/tools. These gates precede the
+full240mm shell. Reuse good04/05/07/08/09 parts after their trials.
+
+STL/ contains print meshes; STP/ contains editable CAD. Keep100% scale, unitsmm.
+Do not print the complete assembly or any REFERENCE file as one fused object.
+BUY-NOW-China.html / BOM-China.json are the current procurement handoff.
+
+This is a CAD-ready print prototype. Actual connector entry, sensor stack/blank
+edges, soft seal compression, speaker excursion, installed thermal bias and tip
+stability still require physical tests. Read README-PRINT-FIRST.txt before print.
+This public release contains technical CAD views, not product photography or
+a completed working-prototype demonstration. Software is not included.
+
+P1S AND SELFIE CAMERA / OWNER-SELECTED R4
+R4 is the selected design. Read P1S-printing.txt for the 256 mm bed/100% scale/
+centred 5 mm brim setup, and Camera-and-selfies.txt for the original camera
+opening keepout and actual live-preview corner/framing trial. No printer job
+or assembled-case camera test has been run.

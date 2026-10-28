@@ -1,0 +1,285 @@
+{
+  "revision": "R4",
+  "date": "2026-10-28",
+  "units": "mm",
+  "status": "CAD-ready horizontal print prototype; physical fit/seal/ports/thermal/acoustic/tiptests pending",
+  "printed_assembly_bbox_mm": [
+    240,
+    116,
+    60
+  ],
+  "main_printed_block_mm": [
+    240,
+    112.8,
+    35.2
+  ],
+  "with_leather_reference_bbox_mm": [
+    241.7,
+    116.85,
+    60
+  ],
+  "minimum_usable_print_bed_width_mm": 250,
+  "brim_allowance_each_side_mm": 5,
+  "print_parts": [
+    {
+      "name": "01_Horizontal_Cabinet",
+      "quantity": 1,
+      "stl": "STL/01_Horizontal_Cabinet.stl",
+      "editable_step": "STP/01_Horizontal_Cabinet.stp",
+      "orientation": "Single240mm-wide shell, frontface on bed. Requires≥250mm usablebed width including5mm brim eachside; no scaling/splitting without CADrevision. Hollow3mm wingwalls and continuous roof.",
+      "optional": false
+    },
+    {
+      "name": "02_Left_Wing_Rear_Cover",
+      "quantity": 1,
+      "stl": "STL/02_Left_Wing_Rear_Cover.stl",
+      "editable_step": "STP/02_Left_Wing_Rear_Cover.stp",
+      "orientation": "Flat; drop tobed. Preserve sensor-cap clearance; no mirror substitution.",
+      "optional": false
+    },
+    {
+      "name": "03_Right_Wing_Rear_Cover",
+      "quantity": 1,
+      "stl": "STL/03_Right_Wing_Rear_Cover.stl",
+      "editable_step": "STP/03_Right_Wing_Rear_Cover.stp",
+      "orientation": "Flat; drop tobed. Different fromleft cover.",
+      "optional": false
+    },
+    {
+      "name": "04_Official_Cassette_Retainer",
+      "quantity": 1,
+      "stl": "STL/04_Official_Cassette_Retainer.stl",
+      "editable_step": "STP/04_Official_Cassette_Retainer.stp",
+      "orientation": "Flat;drop tobed. Oneframe,1.15mm top/bottom crossrail requires gentlehandling. Reuse afterTEST06 passes.",
+      "optional": false
+    },
+    {
+      "name": "05_Flush_Speaker_Grille_PRINT_TWO",
+      "quantity": 2,
+      "stl": "STL/05_Flush_Speaker_Grille_PRINT_TWO.stl",
+      "editable_step": "STP/05_Flush_Speaker_Grille_PRINT_TWO.stp",
+      "orientation": "Flat frontface onbed.44×86mm panels; omitted hole rowY−25.6 is the foam-divider bearing band. Do not perforate it.",
+      "optional": false
+    },
+    {
+      "name": "06_Low_Concealed_Desk_Plinth",
+      "quantity": 1,
+      "stl": "STL/06_Low_Concealed_Desk_Plinth.stl",
+      "editable_step": "STP/06_Low_Concealed_Desk_Plinth.stp",
+      "orientation": "STLalreadybed-oriented.230×60envelope, twoconcealed rearfeet joinedby6mm frontbar; keep sensor air tunnel clear.",
+      "optional": false
+    },
+    {
+      "name": "07_Internal_Sensor_Service_Cap",
+      "quantity": 1,
+      "stl": "STL/07_Internal_Sensor_Service_Cap.stl",
+      "editable_step": "STP/07_Internal_Sensor_Service_Cap.stp",
+      "orientation": "STLalreadyrotated:rearouterface onbed,taperedcapturepostsup. Same-material coupon beforefullprint.",
+      "optional": false
+    },
+    {
+      "name": "08_SEN0428_Internal_Edge_Carrier",
+      "quantity": 1,
+      "stl": "STL/08_SEN0428_Internal_Edge_Carrier.stl",
+      "editable_step": "STP/08_SEN0428_Internal_Edge_Carrier.stp",
+      "orientation": "Frontedgeframe onbed. Actual blankPCBedges/componentheight must pass; no sensor-hole assumption.",
+      "optional": false
+    },
+    {
+      "name": "09_SEN0428_Rear_Retention_Frame",
+      "quantity": 1,
+      "stl": "STL/09_SEN0428_Rear_Retention_Frame.stl",
+      "editable_step": "STP/09_SEN0428_Rear_Retention_Frame.stp",
+      "orientation": "Flat. InternalM2heads face rear; never press sensor/chip/inlet.",
+      "optional": false
+    },
+    {
+      "name": "TEST_01_Official_Case_Clearance_Frame",
+      "quantity": 1,
+      "stl": "STL/TEST_01_Official_Case_Clearance_Frame.stl",
+      "editable_step": "STP/TEST_01_Official_Case_Clearance_Frame.stp",
+      "orientation": "Low-cost first clearance trial only; does not verify port/bend clearance.",
+      "optional": false
+    },
+    {
+      "name": "TEST_02_Speaker_Diameter_Rings_1_2_3",
+      "quantity": 1,
+      "stl": "STL/TEST_02_Speaker_Diameter_Rings_1_2_3.stl",
+      "editable_step": "STP/TEST_02_Speaker_Diameter_Rings_1_2_3.stp",
+      "orientation": "Contains3separate diameter rings; printall3.",
+      "optional": false
+    },
+    {
+      "name": "TEST_03_Flush_Grille_And_Speaker_Seat",
+      "quantity": 1,
+      "stl": "STL/TEST_03_Flush_Grille_And_Speaker_Seat.stl",
+      "editable_step": "STP/TEST_03_Flush_Grille_And_Speaker_Seat.stp",
+      "orientation": "Printwith05panel×1; trial actual5mmseat/flushpanel stack, cone protrusion AND powered excursion foreach17/20mm driver.",
+      "optional": false
+    },
+    {
+      "name": "TEST_04_Leather_And_Screw_Pilots",
+      "quantity": 1,
+      "stl": "STL/TEST_04_Leather_And_Screw_Pilots.stl",
+      "editable_step": "STP/TEST_04_Leather_And_Screw_Pilots.stp",
+      "orientation": "Actual leather/adhesive and printed-pilot trial.",
+      "optional": false
+    },
+    {
+      "name": "TEST_05_Integrated_Sensor_Cell",
+      "quantity": 1,
+      "stl": "STL/TEST_05_Integrated_Sensor_Cell.stl",
+      "editable_step": "STP/TEST_05_Integrated_Sensor_Cell.stp",
+      "orientation": "Printwith07+08+09and actualSEN0428/pigtail/foam/screws. Includes full bottomduct.",
+      "optional": false
+    },
+    {
+      "name": "TEST_06_Cassette_Port_Lane_Coupon",
+      "quantity": 1,
+      "stl": "STL/TEST_06_Cassette_Port_Lane_Coupon.stl",
+      "editable_step": "STP/TEST_06_Cassette_Port_Lane_Coupon.stp",
+      "orientation": "154mm full-depth crop ofactualbody. Use officialcassette+04retainer+actualplugged USB/Power/UART/SD/tools beforefull240mmprint. Reuse04ifpasses.",
+      "optional": false
+    }
+  ],
+  "official_parts": [
+    {
+      "name": "ESP32-S31-Korvo-1_Case_top_20260603",
+      "quantity": 1
+    },
+    {
+      "name": "ESP32-S31-Korvo-1_Case_btm_20260603",
+      "quantity": 1
+    }
+  ],
+  "fasteners": [
+    {
+      "item": "M2.5x10 pan-head self-tapping screws",
+      "quantity": 12,
+      "use": "8wing rearplates+4cassette retainer;2.2mm blindpilots,actualthread/head coupon first"
+    },
+    {
+      "item": "M2.5x10 countersunk self-tapping screws",
+      "quantity": 2,
+      "use": "Lowplinth fromunderside;90degree,Dmax5mm,headflush sofootdoesnotrock"
+    },
+    {
+      "item": "M2x8 countersunk self-tapping screws",
+      "quantity": 2,
+      "use": "Rear sensorcap;90degree,Dmax4/Hmax1.2,1.6pilot7.2deep"
+    },
+    {
+      "item": "M2x4 pan-head self-tapping screws",
+      "quantity": 2,
+      "use": "Internal sensorretention;Dmax4/Hmax1.6,nominal2.8mmprintedthreadengagement"
+    },
+    {
+      "item": "2.5mm cable ties",
+      "quantity": 2,
+      "use": "Final owned-cable strain-relief/spare allowance; fit duringporttrial, do not pull sensorpads. No invented fixedconnector path."
+    }
+  ],
+  "soft_parts": [
+    {
+      "item": "Cured closed-cell siliconefoam sensorcap gasket",
+      "quantity": 1,
+      "free_thickness_mm": 0.5,
+      "design_compressed_thickness_mm": 0.3,
+      "cut_reference": "STP/REFERENCE_Silicone_Gasket_NOT_FOR_PRINT.stp",
+      "note": "40percent compressionisprovisional; couponverify contact/force/flatness."
+    },
+    {
+      "item": "Split closed-cell siliconefoam wireseal",
+      "quantity": 1,
+      "free_stock_allowance_mm": [
+        2.8,
+        5.2,
+        4.5
+      ],
+      "compressed_seat_mm": [
+        2.8,
+        5,
+        4.2
+      ],
+      "note": "LengthalongX; snugactualwireslit/holes, closedfeedthrough; no finishedplug pass-throughpromise."
+    },
+    {
+      "item": "Thin curedfoam contactframe+divider undergrille",
+      "quantity": 2,
+      "free_thickness_mm": 0.5,
+      "design_compressed_thickness_mm": 0.3,
+      "cut_reference": "STP/REFERENCE_Grille_Foam_Frame_And_Divider_NOT_FOR_PRINT.stp",
+      "note": "Fitted thinremovableadhesive/contact stack must fitactual.3mm gap. DividerY−25.6 separates speaker-front gapfromsensorrows; curebefore sensorinstallation."
+    }
+  ],
+  "sensor_basis": {
+    "verified_pcb_mm": [
+      14,
+      17
+    ],
+    "total_stack_height_verified": false,
+    "pcb_thickness_verified": false,
+    "blank_edge_lands_verified": false,
+    "cell_xy_mm": [
+      22.8,
+      20.4
+    ],
+    "nominal_pcb_pocket_mm": [
+      14.4,
+      17.4,
+      2.2
+    ]
+  },
+  "physical_gates": [
+    "TEST06:actualoccupiedUSB/Power/UART/SD/cablebend/toolaccess, no drill assumption",
+    "TEST03:eachspeaker stationaryrim plus movingcone/excursion withflushpanel",
+    "TEST05:actualPCBblankedges/stack/pigtail/cap/foam",
+    "same-sensor detached-installed-detached thermaltest",
+    "actualtip/cable-tug andfootfastener trial"
+  ],
+  "do_not_print": [
+    "STP/00_Horizontal_Assembly_REFERENCE.stp",
+    "STP/REFERENCE_Cognac_TOP_SIDE_Wrap_NOT_FOR_PRINT.stp",
+    "STP/REFERENCE_Grille_Foam_Frame_And_Divider_NOT_FOR_PRINT.stp",
+    "STP/REFERENCE_Internal_Sensor_Harness_NOT_FOR_PRINT.stp",
+    "STP/REFERENCE_SEN0428_PLANFORM_ONLY.stp",
+    "STP/REFERENCE_Silicone_Gasket_NOT_FOR_PRINT.stp",
+    "STP/REFERENCE_Split_Wire_Seal_NOT_FOR_PRINT.stp"
+  ],
+  "material": "LocalPETGifavailable; anothermaterial/processneedsitsownsame-materialcoupons. No supplieravailabilitypromise; no earlierR3printquote applies.",
+  "owner_selection": {
+    "design": "R4",
+    "confirmed": "2026-10-28",
+    "request": "One horizontal body with speakers flanking the screen; retain selfie camera."
+  },
+  "printer_compatibility": {
+    "printer": "Bambu Lab P1S",
+    "nominal_build_volume_mm": [
+      256,
+      256,
+      256
+    ],
+    "main_shell_stl_mm": [
+      240,
+      112.8,
+      32.8
+    ],
+    "outer_brim_mm": 5,
+    "centred_brim_envelope_mm": [
+      250,
+      122.8
+    ],
+    "xy_margin_on_256_plate_mm": 3,
+    "status": "Geometric/profile check; complete slice and physical print not performed.",
+    "instructions": "P1S-printing.txt"
+  },
+  "camera_requirement": {
+    "original_camera_retained": true,
+    "keep_manufacturer_lens_opening_clear": true,
+    "physical_frame_and_selfie_fov_test_required": true,
+    "instructions": "Camera-and-selfies.txt",
+    "cad_review": "Camera-clearance-review.json",
+    "diagram": "Preview/Camera-keepout.svg",
+    "cad_result": "Added R4 parts do not overlap the measured original upper-front notch or its 1 mm expanded forward allowance. Lens alignment/FOV is a physical check."
+  }
+}

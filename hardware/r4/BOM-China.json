@@ -1,0 +1,185 @@
+{
+  "project": "WYATT R4 — incremental estimate for the owner’s existing ESP32-S31-Korvo-1 bench build",
+  "date": "2026-10-28",
+  "currency": "CNY",
+  "owned": [
+    "Korvo board, LCD, microphones and amplifiers",
+    "Two existing 4 Ω / 3 W speakers: measured 42 mm outer rim, listing depths 17 / 20 mm",
+    "Working USB data cable"
+  ],
+  "items": [
+    {
+      "id": "sensor",
+      "group": "required",
+      "name": "DFRobot SHT40 temperature + humidity breakout, SEN0428",
+      "quantity": "1",
+      "low": 49,
+      "high": 49,
+      "url": "https://www.dfrobot.com.cn/goods-3365.html",
+      "basis": "Manufacturer China page listed ¥49 on 28 October 2026; stock and delivered price need checkout confirmation.",
+      "spec": "Buy this exact 14 × 17 mm breakout, AD1B / I²C address 0x44 for the planned prototype configuration, not a bare SHT40 chip or a different-size board. The integrated R4 sensor carrier uses a low-profile soldered pigtail; a tall header/plug must pass the supplied clearance test before use."
+    },
+    {
+      "id": "harness",
+      "group": "required",
+      "name": "Four-wire sensor harness + soldering / safe board interposer",
+      "quantity": "1 set",
+      "low": 35,
+      "high": 35,
+      "url": "https://s.taobao.com/search?q=%E7%94%B5%E5%AD%90%20%E7%84%8A%E6%8E%A5%20%E4%BB%A3%E5%B7%A5%20I2C%204%E8%8A%AF%20%E8%BD%AC%E6%8E%A5%20%E7%BA%BF%E6%9D%9F",
+      "basis": "¥35 planning allowance; search link, not a verified ready-to-plug Korvo accessory. Technician must quote.",
+      "spec": "Short flexible four-conductor lead, about 30 cm for the initial fit/test lead, then cut to the verified internal route, with strain relief. 3.3 V, GND, SDA, SCL. Have the technician verify the occupied shared bus and connector orientation on this exact S31 board."
+    },
+    {
+      "id": "fasteners",
+      "group": "case",
+      "name": "Case/sensor fasteners, small ties and insulating shims",
+      "quantity": "18 screws + 2 small ties",
+      "low": 15,
+      "high": 15,
+      "url": "https://s.taobao.com/search?q=M2.5%20%E8%87%AA%E6%94%BB%E8%9E%BA%E4%B8%9D%2010mm%20M2%20%E8%9E%BA%E4%B8%9D%20%E5%A1%91%E6%96%99",
+      "basis": "¥15 allowance; exact count/length/head must follow the supplied CAD assembly list and pilot coupon.",
+      "spec": "12 × M2.5x10 pan-head self-tapping screws; 2 × M2.5x10 countersunk self-tapping screws; 2 × M2x8 countersunk self-tapping screws; 2 × M2x4 pan-head self-tapping screws; 2 × 2.5mm cable ties. Check actual hardware against the supplied pilot and head-clearance limits."
+    },
+    {
+      "id": "gasket",
+      "group": "case",
+      "name": "Speaker rim pads, sensor-cap silicone foam gasket and non-slip feet",
+      "quantity": "Small offcuts/set; follow R4 seal and grille-divider thickness",
+      "low": 10,
+      "high": 10,
+      "url": "https://s.taobao.com/search?q=0.5mm%20%E9%97%AD%E5%AD%94%20%E7%A1%85%E8%83%B6%20%E6%B3%A1%E6%A3%89%20%E6%97%A0%E8%83%8C%E8%83%B6",
+      "basis": "¥10 small-offcut allowance; search lead, not a verified in-stock sheet. Ask the assembly/print shop to quote the specified soft foam, speaker pads and feet.",
+      "spec": "Sensor cap: soft, cured closed-cell silicone foam sheet 0.5 mm thick, with a 0.3 mm design gap. Fit the coupon before final cutting. A separate split foam block seals the wire channel; use the R4 cut-stock dimensions and the left-grille divider strip. All vent and driver air paths must remain as designed. Speaker pads support only the stationary frame; keep every air opening clear."
+    },
+    {
+      "id": "print",
+      "group": "case",
+      "name": "R4 one-block horizontal enclosure, flush side grilles, hidden rear support and sensor fit coupons",
+      "quantity": "Per print list; two speaker grilles",
+      "low": 180,
+      "high": 350,
+      "url": "https://www.jlc-3dp.cn/",
+      "basis": "¥180–350 planning allowance retained pending a fresh R4 quote. Includes small sensor parts and one fit-coupon round; reprints/finishing may cost extra.",
+      "spec": "Ask a local shop for charcoal PETG if available. JLC currently lists black ABS/ASA rather than PETG: request an explicit material quote and print coupons in that same process before the case. Units mm, scale 100%; print individual STL parts, not the assembly STEP."
+    },
+    {
+      "id": "leather",
+      "group": "finish",
+      "name": "Smooth cognac-brown leather",
+      "quantity": "Small offcut; buy after coupon fit",
+      "low": 30,
+      "high": 30,
+      "url": "https://s.taobao.com/search?q=%E5%B9%B2%E9%82%91%E6%A3%95%20%E5%85%89%E9%9D%A2%20%E7%89%9B%E7%9A%AE%200.6%200.8mm%20%E7%9A%AE%E6%96%99",
+      "basis": "¥30 allowance; search link.",
+      "spec": "0.6–0.8 mm measured thickness; cut to the finished print. Charcoal front, sensor air slots and all acoustic/connector openings remain uncovered."
+    },
+    {
+      "id": "adhesive",
+      "group": "finish",
+      "name": "Leather adhesive compatible with selected print material",
+      "quantity": "Small tube",
+      "low": 10,
+      "high": 10,
+      "url": "https://s.taobao.com/search?q=%E7%9A%AE%E9%9D%A9%20%E5%A1%91%E6%96%99%20%E6%B0%B4%E6%80%A7%20%E8%83%B6%20%E5%B0%8F%E7%93%B6",
+      "basis": "¥10 allowance; search link.",
+      "spec": "Test on scrap first; finish and fully cure the empty shell away from the temperature/humidity sensor before fitting electronics."
+    }
+  ],
+  "conditional_or_later": [
+    {
+      "name": "Suitable 5 V / 3 A USB-C power supply, e.g. DFRobot FIT0640",
+      "low": 40,
+      "high": 40,
+      "url": "https://www.dfrobot.com.cn/goods-2085.html",
+      "basis": "Manufacturer China listed ¥40 on 28 October 2026; US-plug variant, confirm outlet fit. Skip if you already own suitable power. Dry-fit the actual plug and lead in the R4 port-access trial before the full print."
+    },
+    {
+      "name": "SD3031 RTC DFR0998 + CR1220 coin cell",
+      "low": 45,
+      "high": 45,
+      "url": "https://www.dfrobot.com.cn/goods-3657.html",
+      "basis": "Later upgrade only. Earlier ¥40 module + ¥5 cell allowance; today’s module price not reverified. No fitted mount or driver in this R4 release. Do not add it to this print order. Cell retains time only and cannot power an alarm."
+    }
+  ],
+  "sensor_soft_parts": [
+    {
+      "item": "Cured closed-cell siliconefoam sensorcap gasket",
+      "quantity": 1,
+      "free_thickness_mm": 0.5,
+      "design_compressed_thickness_mm": 0.3,
+      "cut_reference": "STP/REFERENCE_Silicone_Gasket_NOT_FOR_PRINT.stp",
+      "note": "40percent compressionisprovisional; couponverify contact/force/flatness."
+    },
+    {
+      "item": "Split closed-cell siliconefoam wireseal",
+      "quantity": 1,
+      "free_stock_allowance_mm": [
+        2.8,
+        5.2,
+        4.5
+      ],
+      "compressed_seat_mm": [
+        2.8,
+        5,
+        4.2
+      ],
+      "note": "LengthalongX; snugactualwireslit/holes, closedfeedthrough; no finishedplug pass-throughpromise."
+    },
+    {
+      "item": "Thin curedfoam contactframe+divider undergrille",
+      "quantity": 2,
+      "free_thickness_mm": 0.5,
+      "design_compressed_thickness_mm": 0.3,
+      "cut_reference": "STP/REFERENCE_Grille_Foam_Frame_And_Divider_NOT_FOR_PRINT.stp",
+      "note": "Fitted thinremovableadhesive/contact stack must fitactual.3mm gap. DividerY−25.6 separates speaker-front gapfromsensorrows; curebefore sensorinstallation."
+    }
+  ],
+  "owner_selection": {
+    "design": "R4",
+    "confirmed": "2026-10-28",
+    "request": "One horizontal body with speakers flanking the screen; retain selfie camera."
+  },
+  "printer_compatibility": {
+    "printer": "Bambu Lab P1S",
+    "nominal_build_volume_mm": [
+      256,
+      256,
+      256
+    ],
+    "main_shell_stl_mm": [
+      240,
+      112.8,
+      32.8
+    ],
+    "outer_brim_mm": 5,
+    "centred_brim_envelope_mm": [
+      250,
+      122.8
+    ],
+    "xy_margin_on_256_plate_mm": 3,
+    "status": "Geometric/profile check; complete slice and physical print not performed.",
+    "instructions": "P1S-printing.txt"
+  },
+  "camera_requirement": {
+    "original_camera_retained": true,
+    "keep_manufacturer_lens_opening_clear": true,
+    "physical_frame_and_selfie_fov_test_required": true,
+    "instructions": "Camera-and-selfies.txt",
+    "cad_review": "Camera-clearance-review.json",
+    "diagram": "Preview/Camera-keepout.svg",
+    "cad_result": "Added R4 parts do not overlap the measured original upper-front notch or its 1 mm expanded forward allowance. Lens alignment/FOV is a physical check."
+  },
+  "totals": {
+    "sensor_and_harness": 84,
+    "sensor_and_harness_with_delivery_allowance": 104,
+    "delivery_allowance": 20,
+    "full_case_finish_reuse_power_low": 349,
+    "full_case_finish_reuse_power_high": 519,
+    "full_case_finish_buy_power_low": 389,
+    "full_case_finish_buy_power_high": 559
+  },
+  "status": "No order placed. No new board, screen, speaker or amplifier needed. Room readings remain unavailable until sensor wiring and firmware enablement are tested.",
+  "price_scope": "Listed references plus explicit allowances, not a fixed quotation; existing hardware purchase cost excluded. Check seller stock, delivery and quote before paying.",
+  "release_scope": "CAD-only v0.1.0-r4. Owned parts are excluded from these historical incremental allowances; public builders must obtain them separately. No firmware included."
+}

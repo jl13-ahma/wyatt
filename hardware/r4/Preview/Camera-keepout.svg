@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+<rect width="1100" height="720" fill="#f3f0e8"/>
+<g font-family="Arial,sans-serif" fill="#243333">
+<text x="50" y="38" font-size="24">WYATT R4 / ORIGINAL CAMERA-SPACE NOTCH</text>
+<text x="50" y="65" font-size="15">Code-native XY diagram, front view from -Z; +X points left. Dimensions in STEP coordinates.</text>
+<rect x="50.000" y="84.400" width="960.000" height="451.200" rx="32" fill="#334044" stroke="#202c30" stroke-width="2"/>
+<rect x="306.400" y="112.600" width="447.200" height="394.800" rx="2" fill="#d8dedb" stroke="#99aaa4" stroke-width="2"/>
+<rect x="318.000" y="174.000" width="424.000" height="272.000" rx="0" fill="#7f9290" stroke="#596e6b" stroke-width="2"/>
+<rect x="620.640" y="118.400" width="56.331" height="49.960" rx="0" fill="#f4b86b" stroke="#a95816" stroke-width="2"/>
+<text x="365" y="320" font-size="16">Original LCD opening</text>
+<text x="390" y="345" font-size="15">106 x 68 mm</text>
+<path d="M 681 143 L 835 143 L 835 175" fill="none" stroke="#f4b86b" stroke-width="2"/>
+<text x="775" y="200" fill="#f4b86b" font-size="15">Measured original notch</text>
+<text x="775" y="224" fill="#f4b86b" font-size="15">14.083 x 12.490 mm</text>
+<text x="70" y="566" font-size="18">No new R4 plastic/leather overlaps the notch's forward projection.</text>
+<text x="70" y="596" font-size="16">X -36.743 .. -22.660; Y 35.410 .. 47.900; original front Z 1.3 mm.</text>
+<text x="70" y="624" font-size="16">Nearest top edge: 1.45 mm XY clearance. Lens centre, depth and FOV are NOT modelled.</text>
+<text x="70" y="652" font-size="16">TEST06 + actual live-preview corner check required before full printing.</text>
+<text x="70" y="684" font-size="14">Diagram is not an optical-ray/FOV proof, product photograph or photo-save feature claim.</text>
+</g></svg>

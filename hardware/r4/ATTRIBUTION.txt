@@ -1,0 +1,69 @@
+ESPRESSIF SOURCE AND WYATT ADAPTATION
+
+Source creator: Espressif Systems (Shanghai) Co., Ltd.
+Source repository: https://github.com/espressif/esp-dev-kits
+Case source directory:
+https://github.com/espressif/esp-dev-kits/tree/bd4d4ac18657e73583af3d7c0b0a23c3cddf3735/examples/esp32-s31-korvo/3d-printed-case
+Original case files: ESP32-S31-Korvo-1_Case_top/btm/stand/light_guide_20260603
+in STEP and STL, copied without alteration to Official-originals/.
+
+Repository README assigns code to Apache-2.0 and documentation (including
+diagrams/images) to Creative Commons Attribution-ShareAlike 4.0 International.
+This CAD package conservatively preserves the documentation share-alike terms
+for the original CAD assets, derived assembly, new case geometry and parametric
+geometry source. License text is included as LICENSE-CC-BY-SA.txt.
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Wyatt adaptation prepared 27 October 2026 with Codex for the user:
+added removable outer jacket, dual speaker bench chambers, rear cover,
+electronics retainer, separate grilles, desk saddle, leather material-reference
+borders, fit coupons, editable CadQuery source, technical previews and validation.
+The assembly changes only orientation/placement of the original source parts;
+original source STEP/STL files remain intact. Not endorsed or approved by
+Espressif. No trademark, patent or industrial-design clearance is represented.
+
+The Wyatt backend/application software is separate from this CAD package;
+the CAD share-alike notice is not a relicensing statement about that software.
+Keep this attribution, license, source links and description of changes with
+redistributed copies or adaptations of this CAD/documentation package.
+
+28 October2026 — R2 adaptation for this Wyatt project:
+Added detachable ventilated SEN0428 sensor pod, removable lid, adjustable PCB-edge
+shoes, remote desk foot, sensor fit coupon and open harness/strain-relief routing.
+Extended saddle sensor platform; added conservative screw-head clearances and
+full-thickness lower-retainer/rear-cover reliefs. Retained the unchanged official
+inner-case source files, original attribution and CC BY-SA4.0 terms. New geometry
+and geometry source in this R2 folder use those same CC BY-SA4.0 terms. Sensor
+manufacturer text dimensions are referenced by URL; unverified component/header
+coordinates were not copied or invented. This is untested print-prototype CAD.
+
+2026-10-28 R3 adaptation: removed R2 external sensor pod, remote foot and wing
+platform; restored compact154mm saddle while retaining R2retainer/head clearances.
+Added lower-centre integrated ambient cell, front/bottom vents, forward-exiting
+saddle air tunnel, edge carrier with positive end fences, rear retention frame,
+inset rear service cap, supported silicone gasket land, closed roofed wire-seal
+feedthrough, hidden rear chase/cover and matching retainer relief, and real-cell
+fit coupon. New geometry, native source and derived drawings remain CC BY-SA4.0.
+No original Espressif geometry or license text was changed.
+
+28 October2026 — R4 horizontal adaptation:
+Rebuilt a single continuous horizontal cabinet with speakers to the left/right of
+the unchanged official cassette, hollow wing walls/ribs, flush rectangular grilles,
+one top/side cognac material reference, supported outer roof and rear-open service
+lanes. Added low two-pad plinth, relocated isolated internal sensor cell, supported
+foam seals, under-grille divider, closed feedthrough, full bottom duct and full-depth
+port-access coupon. Removed R3 stacked cabinet geometry from this revision.
+New/derived geometry, source and technical drawings retain CC BY-SA4.0. Official
+Espressif original geometry and license files remain unchanged.
+
+PUBLIC WYATT RELEASE / v0.1.0-r4 / 28 October 2026
+Wyatt is the current project name; Shannon was the earlier development name.
+Historical filenames and embedded manufacturing-file metadata are retained for
+stable references. The 45 geometry files are unchanged from the frozen R4 set.
+Public prose and CAD preview headings were renamed; default preview display is
+neutral. Original UI artwork remains optional illustrative material only.
+
+Exact upstream Espressif commit: bd4d4ac18657e73583af3d7c0b0a23c3cddf3735
+All eight files in Official-originals/ were checked byte-for-byte against that
+commit. Source attribution is to Espressif; new adaptation work belongs to this
+Wyatt project and retains the stated CC BY-SA4.0 terms. No Espressif endorsement.

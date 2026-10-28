@@ -1,0 +1,69 @@
+WYATT R4 / INTERNAL ROOM-SENSOR FIT AND THERMAL CHECK
+28 October 2026. Design and proposed test plan; no physical measurements made.
+
+CURRENT PLACEMENT
+R4 uses one horizontal body with the screen in the centre and one speaker on
+each side. The SEN0428 sits inside a separate ambient cell below the left
+speaker. The current CAD manifest and assembly notes define its actual position,
+grille divider, rear seal, wire feedthrough and support keepouts. Earlier R3
+lower-centre geometry and R2 external-pod geometry are superseded for this build.
+
+The supplied SEN0428 outline is 14 x 17 mm. PCB thickness, assembled height,
+component/inlet locations, blank edge lands and cable/header stack need the real
+module. Keep the low-profile pigtail, positive edge carrier and physical coupon.
+No board-hole coordinates or assembled module envelope have been invented.
+
+FIT AND AIR PATH
+Trial the actual sensor, carrier, retention, cap, screws and soft seals together
+on the new R4 sensor-cell coupon. The sensing inlet and components must stay
+clear; only inspected blank PCB edges may contact the carrier. Use a removable
+edge shim if needed; the cap must not flatten a tall header or load the chip.
+Preserve the independent ambient slots, left-grille divider and rear seal.
+The sensor must not share a hidden under-grille air gap with the driver. Check
+the divider/seal contact on the actual print. Valid CAD is not an air-leak test.
+Keep leather, pads, support residue, desk mats and wires out of every vent path.
+Thread free pigtail ends through the closed channel before fitting a larger
+connector. Leave a service loop; verify the actual inner-case connector entry.
+Finish and fully cure printed/coated/leather-glued parts before sensor fitting.
+Do not coat, glue or wash the sensing inlet with alcohol/acetone or other solvent.
+
+SAME-PROBE A-B-A COMPARISON
+Use raw readings with the heater off and identical polling. Record time, display
+brightness, Wi-Fi activity, audio level and camera mode. A nearby ambient
+reference helps identify room drift; outside forecasts are not a room reference.
+
+A: temporarily position the same probe outside the powered case, away from
+hand/body heat, board exhaust, direct sun and drafts. A roughly 20 cm separation
+is a test arrangement, not a manufacturer rule. Record a stable 10 minute baseline.
+B: install it in the fully closed R4 case in its normal desk position. Run at
+least 30 minutes, then observe 10 stable minutes. A provisional plateau rule is
+less than 0.05 C/min change; flag a sample still drifting after 60 minutes.
+A: remove it using the service cap and loop, then repeat the outside baseline.
+Repeat a run if room/reference drift is material (e.g. over 0.2 C between the
+bracketing baselines). Compare installed values against a drift-adjusted A-A
+baseline instead of a second uncorrected probe.
+
+Repeat with relevant loads: bright screen, active Wi-Fi, local voice/alarm
+playback, longer left/right speaker use and camera if used. The nearby left
+driver deserves its own heat comparison. Use local audio/traffic for this screen;
+paid AI requests are unnecessary. Keep all final leather, seals and pads fitted.
+
+Proposed prototype screening targets: added installed bias at most 0.5 C and
+3 RH percentage points in each mode, and mode-to-mode added-bias change at most
+0.3 C. These are chosen engineering targets, not advertised device accuracy or
+manufacturer limits. Investigate slower response (e.g. over twice the detached
+response time) during a modest dry-room temperature transition without water or
+condensation exposure. Revise airflow, isolation or placement if needed.
+A guessed constant temperature offset cannot correct load-dependent bias or RH.
+
+No room sensor is fitted today; no installed accuracy follows from these files.
+Keep the existing SEN0428, safe shared 3.3 V I2C harness and current 0x44/AD1B
+firmware expectation. A new controller, display, amplifier or speaker pair is
+unnecessary. Exact hardware and soft-piece quantities come from the R4 manifest.
+
+PRIMARY SOURCES
+https://wiki.dfrobot.com/sen0428/
+https://www.dfrobot.com.cn/goods-3365.html
+https://sensirion.com/media/documents/FC5BED84/662B494D/Sensirion_Humidity_Temperature_Design_Guide.pdf
+https://sensirion.com/media/documents/D1297BA5/670547C3/HT_AN_Contamination_Guide.pdf
+https://github.com/Sensirion/smartgadget-sht4x-housing
